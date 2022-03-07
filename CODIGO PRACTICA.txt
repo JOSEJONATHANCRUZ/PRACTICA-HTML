@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASTELERIA QUEEN</title>
+</head>
+<body>
+    <h1>CREANDO TU PROPIO PASTEL</h1>
+    <hr>
+    <img src="C:\Users\Jony\Downloads\Post de Instagram Curso de Repostería.png" alt="logo pasteleria" width="500px">
+    <br>
+    <h2>Especifica el tipo de pastel de tu agrado</h2><br>
+   
+       <input type="radio" id="html" name="fav_pastel" value="3 LECHES">
+        <label for="html">PASTEL DE 3 LECHES</label><br>
+        <input type="radio" id="css" name="fav_pastel" value="AMERICANO">
+        <label for="html">PASTEL AMERICANO</label><br>
+        <input type="radio" id="javascript" name="fav_pastel" value="MOCA">
+        <label for="html">PASTEL DEL MOCA</label><br>
+        <input type="radio" id="javascript" name="fav_pastel" value="TIRAMISU">
+        <label for="html">PASTEL TIRAMISU</label><br>
+
+    
+    <h1></h1>
+       <label for="Input1"> Porfavor, puede decirnos que tipo de relleno desea para su pastel, <br>
+    si no desea ninguin relleno solo ponga la palabra: NO </label>
+        <br>
+        <input type="text" id="Input1" name="Input1">     
+        <hr>
+    <h2>Ahora vamos con la decoración!</h2>
+    <h2>Elije el color de tu agrado</h2><br>
+    <input type="color" id="color1" name="color1"><br><br>
+        
+    <h2>Es hora de seleccionar los topings de tu agrado </h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="fresa">
+    <label for="topping1">Fresas</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Durazno">
+    <label for="topping2">Duraznos</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="chocolate">
+    <label for="topping3">Chocolate kinder</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="kiwi">
+    <label for="topping3">kiwi</label><br><br>
+    <label for="Input1"> Si desea algún topping extra lo puedes escribir aquí, <br>
+        si no desea ningún topping solo ponga la palabra: NO </label>
+            <br>
+            <input type="text" id="Input1" name="Input1"> 
+            <br>
+    <label for="Input1"> Si desea algún mensaje en especial; favor de escribirlo aquí, <br>
+                si no desea mensaje solo ponga la palabra: NO </label>
+                    <br>
+                    <input type="text" id="Input1" name="Input1"> 
+    <h2>Listo hemos terminado</h2>
+    <h3>Para finalizar tu pedido, permitenos solo algunos datos</h3>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" form="form1"><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    <br><br>
+    <input type="submit"><br>
+
+    
+</body>
